@@ -5,7 +5,7 @@ import FoodCard from './FoodCard'
 function ListCards({menu}) {
     console.log(menu)
     return (
-        <div className="menu">
+        <div className="section-center row">
             {menu ? (
                 menu.filter(x => x.category !== "x")
                 .map(item => (
