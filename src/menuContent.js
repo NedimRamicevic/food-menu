@@ -1,4 +1,4 @@
-const menu = [
+ export const menu = [
     {
       id: 1,
       title: "Tteokbokki",
@@ -81,3 +81,4 @@ const menu = [
       desc: `Red bean paste dessert, serving with honey.`,
     },
   ];
+ 

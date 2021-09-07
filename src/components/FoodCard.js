@@ -3,15 +3,9 @@ import React from 'react'
 function FoodCard({cardInfo}) {
     return (
         <div className="menu-item" id={cardInfo.id}>
-            <div className="photo" >
-                <img src={cardInfo.img} alt=""></img>
-            </div>
-            <div className="menu-title">
-                <h2>{cardInfo.title}</h2>
-            </div>
-            <div className="menu-info">
-                <p>{cardInfo.desc}</p>
-            </div>
+                <img className="photo" src={cardInfo.img} alt=""></img>
+                <h4  className="menu-title" >{cardInfo.title}</h4>
+                <p className="menu-text" >{cardInfo.desc}</p>
         </div>
     )
 }
