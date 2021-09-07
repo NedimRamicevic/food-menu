@@ -6,7 +6,7 @@ import Button from './components/Button'
 
 
 function App() {
-  const [selection, setSelection] = useState("Korea")
+  const [selection, setSelection] = useState("All")
   const selected = (type) =>{
     setSelection(type)
   }
