@@ -7,6 +7,7 @@ function FoodCard({cardInfo}) {
             <div className="menu-info">
                 <div className="menu-title">
                     <h4>{cardInfo.title}</h4>
+                    <h4 className="price">{cardInfo.price}</h4>
                 </div>
                 <div className="menu-text">{cardInfo.desc}</div>
             </div>
