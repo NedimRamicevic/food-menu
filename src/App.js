@@ -13,7 +13,7 @@ function App() {
     
   return (
     <div className="App">
-      <div class="title">
+      <div className="title">
           <h2>Asian Kitchen's Menu</h2>
         </div>
       <Button selected={selected}/>

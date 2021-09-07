@@ -5,7 +5,7 @@ function Button({selected}) {
         <div className="btn-container" >
             {buttons ? (
                 buttons.map(button =>(
-                    <button className="btn btn-outline-dark btn-item" id={button} onClick={()=>selected(button)} >{button}</button>
+                    <button className="btn btn-outline-dark btn-item" id={button} onClick={()=>selected(button)} key={button} >{button}</button>
                 ))
             ):null}
         </div>

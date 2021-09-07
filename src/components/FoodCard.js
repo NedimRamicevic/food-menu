@@ -2,7 +2,7 @@ import React from 'react'
 
 function FoodCard({cardInfo}) {
     return (
-        <div className="menu-items col-lg-6 col-sm-12" id={cardInfo.id}>
+        <div className="menu-items col-lg-6 col-sm-12" >
         <img className="photo" src={cardInfo.img} alt={cardInfo.title}></img>
             <div className="menu-info">
                 <div className="menu-title">
