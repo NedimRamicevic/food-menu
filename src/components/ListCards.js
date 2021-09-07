@@ -1,9 +1,17 @@
 import React from 'react'
+import FoodCard from './FoodCard'
 
-function ListCards() {
+
+function ListCards({menu}) {
+
     return (
-        <div>
-            
+        <div className="container">
+            {menu ? (
+                menu.filter(x => x.category === "x")
+                .map(item => (
+                    <FoodCard cardInfo={item}></FoodCard>
+                ))
+            ):null}
         </div>
     )
 }
